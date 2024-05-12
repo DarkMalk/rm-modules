@@ -7,7 +7,7 @@
   "scripts": {
     "commit": "commit-easy",
     "start": "node src/index.js",
-    "pkg": "pkg . -t node18 --out-path dist"
+    "pkg": "pkg . -C Brotli -t node18-linux-x64,node18-macos-x64,node18-win-x64 --out-path dist"
   },
   "keywords": [
     "node_modules",
