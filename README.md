@@ -6,8 +6,6 @@ A tool to remove the "node_modules" folders recursively from a project directory
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
