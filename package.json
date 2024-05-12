@@ -1,0 +1,29 @@
+{
+  "name": "rm-modules",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "commit": "commit-easy",
+    "start": "node src/index.js",
+    "pkg": "pkg . -t node18 --out-path dist"
+  },
+  "keywords": [
+    "node_modules",
+    "remove",
+    "rm",
+    "rm node_modules"
+  ],
+  "author": "DarkMalk",
+  "license": "ISC",
+  "description": "This is a simple package that will remove the node_modules",
+  "packageManager": "pnpm@9.1.0+sha512.67f5879916a9293e5cf059c23853d571beaf4f753c707f40cb22bed5fb1578c6aad3b6c4107ccb3ba0b35be003eb621a16471ac836c87beb53f9d54bb4612724",
+  "devDependencies": {
+    "@eslint/js": "9.2.0",
+    "commit-easy": "1.0.4",
+    "eslint": "9.2.0",
+    "globals": "15.2.0",
+    "pkg": "5.8.1"
+  }
+}
